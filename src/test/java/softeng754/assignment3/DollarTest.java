@@ -31,8 +31,7 @@ public class DollarTest {
 // When
         ten.dividedBy(0);
     }
-
-    @Test(expected=ArithmeticException.class)
+    @Test
     public void testFail() {
 // Given
 //        fail();
