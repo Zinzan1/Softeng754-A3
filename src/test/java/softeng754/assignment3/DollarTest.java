@@ -35,6 +35,6 @@ public class DollarTest {
     @Test(expected=ArithmeticException.class)
     public void testFail() {
 // Given
-        fail();
+//        fail();
     }
 }
