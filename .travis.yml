@@ -6,9 +6,7 @@ env:
   global:
     - CODECOV_TOKEN=:6004f904-74f6-4b88-b9b9-0a5496c50001
 
-script:
-  - mvn test
-  - mvn cobertura:cobertura
+script: "mvn cobertura:cobertura"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
