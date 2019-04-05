@@ -4,7 +4,7 @@ jdk:
 install: true
 env:
   global:
-    - CODECOV_TOKEN=:uuid-repo-token
+    - CODECOV_TOKEN=:6004f904-74f6-4b88-b9b9-0a5496c50001
 after_success:
   - bash <(curl -s https://codecov.io/bash)
 script:
