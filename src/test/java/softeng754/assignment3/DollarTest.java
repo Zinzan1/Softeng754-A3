@@ -36,4 +36,34 @@ public class DollarTest {
 // Given
 //        fail();
     }
+
+    @Test
+    public void testDollarMultiplication() {
+// Given
+        Dollar ten = new Dollar(10);
+// When
+        Dollar result = ten.times(2);
+// Then
+        assertEquals(new Dollar(20), result);
+    }
+
+    @Test
+    public void testDollarToString() {
+// Given
+        Dollar ten = new Dollar(10);
+// When
+        String result = ten.toString();
+// Then
+        assertEquals("$10", result);
+    }
+
+    @Test
+    public void testDollarEquals() {
+// Given
+        Dollar ten = new Dollar(10);
+        Dollar otherten = new Dollar(10);
+
+// Then
+        assertEquals(ten, otherten);
+    }
 }
