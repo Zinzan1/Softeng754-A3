@@ -8,7 +8,7 @@ env:
 
 script:
   - "mvn cobertura:cobertura"
-  - "mvn test build"
+  - "mvn test"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
