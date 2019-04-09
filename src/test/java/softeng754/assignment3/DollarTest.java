@@ -34,7 +34,7 @@ public class DollarTest {
     @Test
     public void testFail() {
 // Given
-//        fail();
+        fail();
     }
 
     @Test
